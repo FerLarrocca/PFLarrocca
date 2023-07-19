@@ -1,0 +1,46 @@
+/* PRODUCTOS */
+#product-cards{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 100px;
+    .card{
+        box-shadow: $quinto-color;
+    }
+    h1{
+        margin-top: 30px;
+        color: $segundo-color;
+        text-shadow: 1px 1px 1px $cuarto-color;
+    }
+    h3{
+        letter-spacing: 3px;
+        color: $segundo-color;
+        text-shadow: 0px 1px 1px $cuarto-color;
+        font-weight: bold;
+    }
+    h5 span{
+        float: right;
+        color: $segundo-color;
+        cursor: pointer;
+    }
+} 
+.checked{
+    color: $checked-color;
+}
+#viewmorebtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    color: $segundo-color;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid $segundo-color;
+    transition: 0.5s ease;
+    &:hover{
+        background-color: $segundo-color;
+        color: $tercer-color;
+    }
+}

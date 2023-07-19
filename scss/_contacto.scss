@@ -1,0 +1,43 @@
+/* PAGINA CONTACTO */
+#contact{
+    margin-top: 50px;
+    h1{
+        color: $segundo-color;
+        text-shadow: 0px 0px 1px $cuarto-color;
+    }
+    .card{
+        height: 80px;
+        margin-top: 20px;
+        box-shadow: $quinto-color;
+        i{
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 15px;
+            color: $segundo-color;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        h6{
+            margin-left: 10px;
+            margin-top: 10px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            color: $segundo-color;
+        }
+    }
+}
+#messagebtn button{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid $segundo-color;
+    color: $segundo-color;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+    &:hover{
+        background-color: $segundo-color;
+        color: $tercer-color;
+    }
+}

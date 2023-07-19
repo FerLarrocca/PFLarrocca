@@ -1,0 +1,88 @@
+/* PAGINA LOGIN */
+.login{
+    width: 50%;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#side1{
+    background-color: $segundo-color;
+    height: 76vh;
+    border-radius: 5px;
+    box-shadow: $quinto-color;
+    h3{
+        color: $tercer-color;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px $cuarto-color;
+        margin-top: 200px;
+        align-items: center;
+        text-align: center;
+    }
+    p{
+        color: $tercer-color;    
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+    }
+}
+#btn{
+    align-items: center;
+    text-align: center;
+    border: 2px solid $tercer-color;
+    border-radius: 10px;
+    a{
+        text-decoration: none;
+        color: $tercer-color;
+    }
+}
+#side2{
+    background-color: $tercer-color;
+    border-radius: 5px;
+    box-shadow: $quinto-color;
+    align-items: center;
+    text-align: center;
+    h3{
+        margin-top: 50px;
+        color: $segundo-color;
+        font-weight: bold;
+    }
+    .inp{
+        margin-top: 32px;
+    }
+    input{
+        width: 500px;
+        margin-top: 20px;
+        height: 36px;
+        align-items: center;
+    }
+    p{
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .icons i{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}
+
+#login{
+    margin-top: 10px;
+    button{
+        width: 200px;
+        height: 32px;
+        color: $tercer-color;
+        background-color: $segundo-color;
+        border: none;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:992px){
+    #side2 input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:330x){
+    #side2 input{
+        width: 200px;
+    }
+}
